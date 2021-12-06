@@ -16,12 +16,12 @@ MonoBehaviour:
   m_GuidHigh: 3103733879214991751
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5043403544725500106
-      m_GuidHigh: 14802534246246321075
+      m_GuidLow: 5312890826537506493
+      m_GuidHigh: 15712533821681655993
     m_SerializedTextureGuid:
-      m_GuidLow: 3410585886127033856
-      m_GuidHigh: 17856798637834843465
-    m_Size: {x: 0.1, y: 0.15}
-    m_SpecifySize: 1
-    m_Name: capture_20211101185037798
-    m_Texture: {fileID: 2800000, guid: 1a900e00d5cb2f544935d371c017d0f7, type: 3}
+      m_GuidLow: 15570170350193837602
+      m_GuidHigh: 3957152495796405688
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: thumb-1920-76997
+    m_Texture: {fileID: 0}
