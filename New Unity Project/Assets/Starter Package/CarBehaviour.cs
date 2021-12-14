@@ -23,7 +23,7 @@ using UnityEngine;
 public class CarBehaviour : MonoBehaviour
 {
     public ReticleBehaviour Reticle;
-    public float Speed = 1.2f;
+    public float Speed = 0.0f;
 
     private void Update()
     {

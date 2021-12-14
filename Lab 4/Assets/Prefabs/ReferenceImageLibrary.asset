@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5223466609988158977
+  m_GuidHigh: 2716137526571301557
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5669183308180859616
+      m_GuidHigh: 9504797121948476032
+    m_SerializedTextureGuid:
+      m_GuidLow: 6189241387854872117
+      m_GuidHigh: 8263055495428787323
+    m_Size: {x: 0.1, y: 0.15}
+    m_SpecifySize: 1
+    m_Name: Banana
+    m_Texture: {fileID: 2800000, guid: 103c3e359a4055e47b4c5f8c3145ac72, type: 3}

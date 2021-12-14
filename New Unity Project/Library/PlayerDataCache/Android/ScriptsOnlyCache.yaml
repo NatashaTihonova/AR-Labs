@@ -1,7 +1,13 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - CarBehaviour
+    - CarManager
     - DrivingSurfaceManager
+    - LightEstimation
+    - PackageBehaviour
+    - PackageManager
+    - ReticleBehaviour
     - UnityEngine.XR.ARFoundation.Samples.ARFeatheredPlaneMeshVisualizer
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
@@ -93,9 +99,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 33
       Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
     - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -103,6 +115,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11936}
     - Class: 114
       Script: {instanceID: 11938}
     - Class: 114
@@ -116,95 +130,105 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11948}
     - Class: 114
-      Script: {instanceID: 11950}
+      Script: {instanceID: 12010}
     - Class: 114
-      Script: {instanceID: 12012}
+      Script: {instanceID: 12116}
     - Class: 114
-      Script: {instanceID: 12118}
+      Script: {instanceID: 12246}
     - Class: 114
-      Script: {instanceID: 12248}
+      Script: {instanceID: 12270}
     - Class: 114
-      Script: {instanceID: 12272}
+      Script: {instanceID: 12454}
     - Class: 114
-      Script: {instanceID: 12456}
+      Script: {instanceID: 12502}
     - Class: 114
-      Script: {instanceID: 12504}
+      Script: {instanceID: 12524}
     - Class: 114
-      Script: {instanceID: 12526}
+      Script: {instanceID: 12710}
     - Class: 114
-      Script: {instanceID: 12712}
+      Script: {instanceID: 12796}
     - Class: 114
-      Script: {instanceID: 12798}
+      Script: {instanceID: 13032}
     - Class: 114
-      Script: {instanceID: 13090}
+      Script: {instanceID: 13088}
     - Class: 114
-      Script: {instanceID: 13138}
+      Script: {instanceID: 13136}
     - Class: 114
-      Script: {instanceID: 13206}
+      Script: {instanceID: 13204}
     - Class: 114
-      Script: {instanceID: 13242}
+      Script: {instanceID: 13240}
     - Class: 114
-      Script: {instanceID: 13500}
+      Script: {instanceID: 13498}
     - Class: 114
-      Script: {instanceID: 13760}
+      Script: {instanceID: 13758}
     - Class: 114
-      Script: {instanceID: 13776}
+      Script: {instanceID: 13774}
     - Class: 114
-      Script: {instanceID: 13812}
+      Script: {instanceID: 13810}
     - Class: 114
-      Script: {instanceID: 13880}
+      Script: {instanceID: 13878}
     - Class: 114
-      Script: {instanceID: 14018}
+      Script: {instanceID: 14016}
     - Class: 114
-      Script: {instanceID: 14354}
+      Script: {instanceID: 14062}
     - Class: 114
-      Script: {instanceID: 14382}
+      Script: {instanceID: 14352}
     - Class: 114
-      Script: {instanceID: 14746}
+      Script: {instanceID: 14380}
     - Class: 114
-      Script: {instanceID: 14806}
+      Script: {instanceID: 14532}
     - Class: 114
-      Script: {instanceID: 14826}
+      Script: {instanceID: 14744}
     - Class: 114
-      Script: {instanceID: 14846}
+      Script: {instanceID: 14804}
     - Class: 114
-      Script: {instanceID: 14878}
+      Script: {instanceID: 14824}
     - Class: 114
-      Script: {instanceID: 14994}
+      Script: {instanceID: 14844}
     - Class: 114
-      Script: {instanceID: 15032}
+      Script: {instanceID: 14876}
     - Class: 114
-      Script: {instanceID: 15042}
+      Script: {instanceID: 14992}
     - Class: 114
-      Script: {instanceID: 15206}
+      Script: {instanceID: 15030}
     - Class: 114
-      Script: {instanceID: 15246}
+      Script: {instanceID: 15040}
     - Class: 114
-      Script: {instanceID: 15412}
+      Script: {instanceID: 15086}
     - Class: 114
-      Script: {instanceID: 15482}
+      Script: {instanceID: 15204}
     - Class: 114
-      Script: {instanceID: 15496}
+      Script: {instanceID: 15244}
     - Class: 114
-      Script: {instanceID: 15770}
+      Script: {instanceID: 15410}
     - Class: 114
-      Script: {instanceID: 15850}
+      Script: {instanceID: 15480}
     - Class: 114
-      Script: {instanceID: 15978}
+      Script: {instanceID: 15494}
     - Class: 114
-      Script: {instanceID: 16030}
+      Script: {instanceID: 15732}
     - Class: 114
-      Script: {instanceID: 16106}
+      Script: {instanceID: 15768}
     - Class: 114
-      Script: {instanceID: 16264}
+      Script: {instanceID: 15848}
     - Class: 114
-      Script: {instanceID: 16268}
+      Script: {instanceID: 15976}
     - Class: 114
-      Script: {instanceID: 16326}
+      Script: {instanceID: 16028}
     - Class: 114
-      Script: {instanceID: 16458}
+      Script: {instanceID: 16104}
     - Class: 114
-      Script: {instanceID: 16466}
+      Script: {instanceID: 16190}
+    - Class: 114
+      Script: {instanceID: 16262}
+    - Class: 114
+      Script: {instanceID: 16266}
+    - Class: 114
+      Script: {instanceID: 16324}
+    - Class: 114
+      Script: {instanceID: 16456}
+    - Class: 114
+      Script: {instanceID: 16464}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -954,6 +978,12 @@ ScriptsOnlyBuild:
     className: ShadowsMidtonesHighlights
   - hash:
       serializedVersion: 2
+      Hash: 369736842383c19c36ada2f3438b19a3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PackageManager
+  - hash:
+      serializedVersion: 2
       Hash: c73b38d1734fde2c84da7bd282f19e54
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
@@ -1345,4 +1375,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/VR labs/New Unity Project/arLab.apk
+  playerPath: D:/Git Hub/AR-Labs/New Unity Project/car.apk

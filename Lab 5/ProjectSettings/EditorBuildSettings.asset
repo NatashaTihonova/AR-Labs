@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/X-Ray Diffraction files/Scenes/AuthUser.unity
+    guid: d7c32a59d239a06498f2093f4230f85e
+  - enabled: 0
+    path: Assets/X-Ray Diffraction files/Scenes/Menu.unity
+    guid: 66d950d9f3efd7641a3fc15f4a761c51
+  - enabled: 0
+    path: Assets/X-Ray Diffraction files/Scenes/Training.unity
+    guid: 259dcc57fdf3b41418ec009be75150d2
+  - enabled: 0
+    path: Assets/X-Ray Diffraction files/Scenes/LaboratoryWork.unity
+    guid: 82382d77ff4132542ae9187912bbf78f
+  - enabled: 0
+    path: Assets/X-Ray Diffraction files/Scenes/Sinchotron.unity
+    guid: 2f46b8b40d58abf4eae635730061bbea
+  - enabled: 0
+    path: Assets/X-Ray Diffraction files/Scenes/StationPhase.unity
+    guid: 75b8ade75b4216a44a5c96fb2565c09c
+  - enabled: 0
+    path: Assets/X-Ray Diffraction files/Scenes/Testing.unity
+    guid: cc46b25858715a84da9974450ccd1e67
+  - enabled: 0
+    path: Assets/X-Ray Diffraction files/Scenes/X-RayDiffraction NEW.unity
+    guid: 8682e757701ee0643977695dbd57b41d
+  - enabled: 0
+    path: Assets/X-Ray Diffraction files/Scenes/ResonantDiffraction 4.unity
+    guid: 8cd2fe0a133b2fa4ab58a5b79ef0d69c
+  - enabled: 0
+    path: Assets/X-Ray Diffraction files/Scenes/Excursion.unity
+    guid: bdeda29167018a342abab5d555122746
+  - enabled: 0
+    path: Assets/X-Ray Diffraction files/Scenes/ExcursionPC.unity
+    guid: 4c8ffdad5cd84c84abd76ae30bbd5e9b
+  - enabled: 1
+    path: Assets/ResourcesPackages/VRTK/Examples/[001 - Interactions] ControllerEvents.unity
+    guid: 7ef04a272395bf04f8fdc6ec410f464e
+  m_configObjects: {}

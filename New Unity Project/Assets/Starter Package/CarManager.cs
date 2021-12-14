@@ -24,7 +24,7 @@ using UnityEngine.XR.ARFoundation;
  */
 public class CarManager : MonoBehaviour
 {
-    public GameObject CarPrefab;
+    public GameObject PortalPrefab;
     public ReticleBehaviour Reticle;
     public DrivingSurfaceManager DrivingSurfaceManager;
 
@@ -35,7 +35,7 @@ public class CarManager : MonoBehaviour
         if (Car == null && WasTapped() && Reticle.CurrentPlane != null)
         {
             // Spawn our car at the reticle location.
-            var obj = GameObject.Instantiate(CarPrefab);
+            var obj = GameObject.Instantiate(PortalPrefab);
             Car = obj.GetComponent<CarBehaviour>();
             Car.Reticle = Reticle;
             Car.transform.position = Reticle.transform.position;

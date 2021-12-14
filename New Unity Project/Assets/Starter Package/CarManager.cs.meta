@@ -3,7 +3,11 @@ guid: e74f2e7dc86ac4a77899d283f1191ff4
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - PortalPrefab: {fileID: 7009984185642896293, guid: 09673862a6f0ff044acf69ddb077bcd8, type: 3}
+  - Reticle: {instanceID: 0}
+  - DrivingSurfaceManager: {instanceID: 0}
+  - Car: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
